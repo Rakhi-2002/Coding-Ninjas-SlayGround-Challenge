@@ -1,3 +1,7 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+
 bool checkArmstrong(int n){
 
     cin>>n;
