@@ -21,7 +21,7 @@ int main(){
         cnt = 1;
         for(int j=1; j<s.length(); j++){
             if(s[j] != s[j-1]){
-                temp += to_string(cnt);
+                temp += to_string(cnt); 
                 temp += s[j-1];
                 cnt = 1;
                 
